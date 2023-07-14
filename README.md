@@ -4,11 +4,9 @@ By Isaiah Sanchez
 This article serves to explain the MVC in a beginner friendly manner and uses Game of Thrones as an analogy to hopefully help make it more clear.
 
 
-What is the MVC?
+![MVC](https://github.com/isaiahasanchez/Model-View-Controller-Explained/assets/124002003/a72fb0fc-d65b-4701-b31f-889c11342740)
 
-The MVC is an architectual design pattern that separates an application into 3 components. These 3 components are responsible for different parts of how an application functions but they all work together as one whole system. 
 
-![1](https://github.com/isaiahasanchez/Understanding-Model-View-Controller-Framework/assets/124002003/b1a8cf66-004c-4f25-bba0-69048afb0eb4)
 
 Now lets talk about each component. 
 

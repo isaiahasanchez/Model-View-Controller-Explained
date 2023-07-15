@@ -1,30 +1,25 @@
 # Model-View-Controller Explained
 By Isaiah Sanchez
 
-This article serves to explain the MVC in a beginner friendly manner and uses Game of Thrones as an analogy to hopefully help make it more clear.
+This article serves to explain the MVC in a beginner friendly manner and uses a Game of Thrones analogy to hopefully help make it more clear.
 
 
-![MVC](https://github.com/isaiahasanchez/Model-View-Controller-Explained/assets/124002003/a72fb0fc-d65b-4701-b31f-889c11342740)
-
+![1](https://github.com/isaiahasanchez/Model-View-Controller-Explained/assets/124002003/0db54815-8be7-4485-8079-d1a121c43989)
 
 
 Now lets talk about each component. 
 
-![2](https://github.com/isaiahasanchez/Understanding-Model-View-Controller-Framework/assets/124002003/de30ee6d-514d-4117-9960-27bf8a45a140)
 
-The Model is the portion of the system that is responsible for getting and manipulating the data, and logic of the application. It interacts directly with the data base. The model gets its request from the controller, parses that info and uses that request to search the database for the information it needs. It then speaks back to the controller the data requested.
+![2](https://github.com/isaiahasanchez/Model-View-Controller-Explained/assets/124002003/23167fab-f2c5-4894-91ae-32ad41bac844)
 
-![3](https://github.com/isaiahasanchez/Understanding-Model-View-Controller-Framework/assets/124002003/02dea77a-3369-4d74-b7a8-0f9214603b8c)
 
-The View deals with the UI which is what the user sees on their end. Typically view will also gets the request from the controller for what and how to present the data and its the views responsibility to parse that request and generate the template for what the user will eventually see on the browser. This is typically in the form of HTML/CSS or whatever Template Engine is being used like handlebars, Jinja, Pug, EJS etc. 
+![3](https://github.com/isaiahasanchez/Model-View-Controller-Explained/assets/124002003/6c2bd7af-573d-4d2a-8330-e1cf457604c3)
 
-![4](https://github.com/isaiahasanchez/Understanding-Model-View-Controller-Framework/assets/124002003/9d4b0a59-69ee-41a5-a402-d56b5633b6bd)
 
-The Controller is the part of the system that is essentially the brains or director of it all. The Controller is responsible for taking in and processing what the user requested and then passing on the appropriate request to the model and view acting as an intermediary between the two. Typically the Controller does not interact with the database itself but rather delegates the orders to the model and receives the data request back. The controller then interacts with the view to render the final presentation.
+![4](https://github.com/isaiahasanchez/Model-View-Controller-Explained/assets/124002003/2297a2a7-cf79-4a83-9752-17c0e6f431fd)
 
-![5](https://github.com/isaiahasanchez/Understanding-Model-View-Controller-Framework/assets/124002003/f7752558-5f7a-47bd-bbb3-45b400c32f6b)
 
-Bonus Portion: The Router may play a part in certain MVC systems by handling the routing and directing of requests to the appropriate controller. It acts as a traffic controller, receiving incoming requests and determining which controller should handle them. The router ensures that each request is routed to the correct controller based on predefined routes and URLs.
+![5](https://github.com/isaiahasanchez/Model-View-Controller-Explained/assets/124002003/116b16d3-7310-4ebd-a058-1f258b7a1186)
 
 
 ![6](https://github.com/isaiahasanchez/Understanding-Model-View-Controller-Framework/assets/124002003/31326048-5f0a-4291-a591-1078a2975d4b)
@@ -40,8 +35,6 @@ Ruby on Rails, Django, Codeigniter, Laravel, Express, Angular and Zend.
 
 
 
-
-
 ![7](https://github.com/isaiahasanchez/Understanding-Model-View-Controller-Framework/assets/124002003/976428d0-33c7-4d6e-9118-e4869c909f73)
 
 ![8](https://github.com/isaiahasanchez/Understanding-Model-View-Controller-Framework/assets/124002003/d746ba7e-70e3-403b-81fb-29e9d67a5538)
@@ -54,7 +47,7 @@ Ruby on Rails, Django, Codeigniter, Laravel, Express, Angular and Zend.
 
 ________________________________________________________________________________________________________________________________________________
 
-OK Now lets end it with a little analogy to give you another way to conceptualize this system.
+OK Now let's end it with an analogy in the form of a story. Hopefully this gives you another way to conceptualize this system.
 
 We are in the world of Game of Thrones, a fantasy world with medieval-type characters. 
 
